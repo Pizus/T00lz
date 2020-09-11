@@ -3,12 +3,12 @@
     max-width: 90%;
   }
   .bin-name{
-    font-size: 100%;
+    font-size: 115%;
    }
   
   .resources-list a {
    }
-  .resources-list a, .bin-name{
+  .resources-list a{
     font-size: 100%;
    }
   .type-list{
