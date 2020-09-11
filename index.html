@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="/styles/glitch.css" rel="stylesheet" type="text/css" media="all" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>T00lz</title>
+</head>
+<body>
+  <div class="text middle" data-text="T00lz">
+    T00lz
+  </div>
+  <input type="text" id="search" placeholder="Search tools.. use +[Type] to filter by type" title="Type in a tool">
+
+  <div class="container">
+    <table id="bin-table">
+      <tr>
+        <th>Tools</th>
+        <th>resources</th>
+        <th>Type</th>
+      </tr>
+      <ol id="bigList">
+        <tr>
+          <td>
+            <a class="bin-name" target="_blank" href="https://gchq.github.io/CyberChef/">CyberChef</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/mattnotmax/cyberchef-recipes">Cheat sheet</a></li>
+              <li>
+                <p>|</p>
+              </li>
+              <li><a class="bin-resources" target="_blank" href="https://github.com/mattnotmax/cyberchef-recipes">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/nccgroup/featherduster">FeatherDuster</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/iagox86/hash_extender">Hash Extender</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/KishanBagaria/padding-oracle-attacker">padding-oracle-attacker</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack.html">PkCrack</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://quipqiup.com/">QuipQuip</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/Ganapati/RsaCtfTool">RSACTFTool</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/ius/rsatool">RSATool</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/Ciphey/Ciphey">Ciphey</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/hellman/xortool">XORTool</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="crypto" href="#">Crypto</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://hashcat.net/hashcat/">Hashcat</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/hashcat/hashcat">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="brutforcers" href="#">Bruteforcers</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/vanhauser-thc/thc-hydra">Hydra</a></td>
+          <td>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="brutforcers" href="#">Bruteforcers</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.openwall.com/john/">John The Ripper (Jumbo)</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/openwall/john">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="brutforcers" href="#">Bruteforcers</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/intrd/nozzlr">Nozzlr</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="brutforcers" href="#">Bruteforcers</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://ophcrack.sourceforge.net/">Ophcrack</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="brutforcers" href="#">Bruteforcers</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/lanjelot/patator">Patator</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="brutforcers" href="#">Bruteforcers</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack">Turbo Intruder</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/PortSwigger/turbo-intruder">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="brutforcers" href="#">Bruteforcers</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/OpenSecurityResearch/dllinjector">DLLInjector</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/hellman/libformatstr">libformatstr</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.metasploit.com/">Metasploit</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/rapid7/metasploit-framework">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/david942j/one_gadget">one_gadget</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/Gallopsled/pwntools">Pwntools</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://qira.me/">Qira</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/geohot/qira">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/JonathanSalwan/ROPgadget">ROP Gadget</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/P1kachu/v0lt">V0lt</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://gtfobins.github.io/">GTFOBins</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/GTFOBins/GTFOBins.github.io">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://lolbas-project.github.io/#">LOLBAS</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/LOLBAS-Project/LOLBAS">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="exploits" href="#">Exploits</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.aircrack-ng.org/">Aircrack-Ng</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/aircrack-ng/aircrack-ng">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.audacityteam.org/download/">Audacity</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.ntcore.com/exsuite.php">CFF Explorer</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/moyix/creddump">Creddump</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/kost/dvcs-ripper">DVCS Ripper </a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://exiftool.org/">ExifTool</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://extundelete.sourceforge.net/">Extundelete</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/rabbitstack/fibratus">Fibratus</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://foremost.sourceforge.net/">Foremost </a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://linux.die.net/man/8/fsck.ext3">Fsck.ext4 </a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://malzilla.sourceforge.net/">Malzilla</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.netresec.com/?page=NetworkMiner">NetworkMiner</a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://malzilla.sourceforge.net/downloads.html">PDF Streams Inflater </a></td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.libpng.org/pub/png/apps/pngcheck.html">Pngcheck</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/williballenthin/shellbags">Shellbags</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/snovvcrash/usbrip">USBRip</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/volatilityfoundation/volatility">Volatility</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.nirsoft.net/utils/offline_registry_view.html">OfflineRegistryView</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://accessdata.com/product-download/registry-viewer-2-0-0">Registry Viewer®</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="forensics" href="#">Forensics</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/robertdavidgraham/masscan">Masscan</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://mmonit.com/monit/">Monit</a></td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/arnaudsj/monit">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/GouveaHeitor/nipe">Nipe</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://nmap.org/">Nmap</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.wireshark.org/">Wireshark</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.zeek.org/">Zeek</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://zmap.io/">Zmap</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/RustScan/RustScan">Rustscan</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="networking" href="#">Networking</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/androguard/androguard">Androguard</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://angr.io/">Angr</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/angr/angr">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/lxdvs/apk2gold">Apk2Gold</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://ibotpeaches.github.io/Apktool/">ApkTool</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/programa-stic/barf-project">Barf</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.gnu.org/software/binutils/binutils.html">BinUtils</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/devttys0/binwalk">BinWalk</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/BoomerangDecompiler/boomerang">Boomerang</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/docileninja/ctf_import">ctf_import</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/fkie-cad/cwe_checker">cwe_checker</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/kirschju/demovfuscator">demovfuscator</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/frida/">Frida</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.gnu.org/software/gdb/">GDB</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/hugsy/gef">GEF</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://ghidra-sre.org/">Ghidra</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/NationalSecurityAgency/ghidra">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/skylot/jadx">Jadx</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.javadecompilers.com/">Java Decompilers</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/Storyyeller/Krakatau">Krakatau</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/sensepost/objection">Objection </a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/longld/peda">PEDA</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool">Pin </a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/korcankaraokcu/PINCE">PINCE</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/ChrisTheCoolHut/PinCTF">PinCTF</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/joelpx/plasma">Plasma</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/pwndbg/pwndbg">Pwndbg</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.radare.org/n/radare2.html">radare2</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/radareorg/radare2">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://triton.quarkslab.com/">Triton</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/JonathanSalwan/Triton/">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/gstarnberger/uncompyle">Uncompyle</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.windbg.org/">WinDbg</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://reverse.lostrealm.com/tools/xocopy.html">Xocopy</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/Z3Prover/z3">Z3</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://relentless-coding.org/projects/jsdetox/install">Detox</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/svent/jsdetox">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.kahusecurity.com/posts/revelo_javascript_deobfuscator.html">Revelo</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/CyberShadow/RABCDAsm">RABCDAsm</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.swftools.org/">Swftools</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://bitbucket.org/Alexander_Hanel/xxxswf">Xxxswf</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="reversing" href="#">Reversing</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://cow.cat/cswsh.html">CSWSH</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="services" href="#">Services</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://requestbin.com/">Request Bin</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="services" href="#">Services</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://aperisolve.fr/">Aperi'Solve</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.imagemagick.org/script/convert.php">Convert</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://manpages.ubuntu.com/manpages/trusty/man1/exif.1.html">Exif</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://exiftool.org/">Exiftool</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.exiv2.org/manpage.html">Exifv2</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://incoherency.co.uk/image-steganography">Image Steganography Online</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.imagemagick.org/script/index.php">ImageMagick</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.freebsd.org/cgi/man.cgi?query=outguess+&apropos=0&sektion=0&manpath=FreeBSD+Ports+5.1-RELEASE&format=html">Outguess</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://packages.debian.org/sid/pngtools">Pngtools</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/Y-Vladimir/SmartDeblur">SmartDeblur</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.openhub.net/p/steganabara">Steganabara</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://stylesuxx.github.io/steganography/">SteganographyOnline</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://linux.die.net/man/1/stegbreak">Stegbreak</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/Paradoxis/StegCracker">StegCracker</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/evyatarmeged/stegextract">stegextract</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://steghide.sourceforge.net/index.php">Steghide</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://georgeom.net/StegOnline/upload">StegOnline</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.darkside.com.au/snow/index.html">Stegsnow</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://www.caesum.com/handbook/Stegsolve.jar">Stegsolve</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/zed-0xff/zsteg">Zsteg</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="steganography" href="#">Steganography</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://portswigger.net/burp">BurpSuite</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://commixproject.com/">Commix</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/commixproject/commix">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/hackbartool/">Hackbar</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://www.zaproxy.org/">OWASP ZAP</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en">Postman</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/evyatarmeged/Raccoon">Raccoon</a>
+          </td>
+          <td></td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://sqlmap.org/">SQLMap</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/sqlmapproject/sqlmap">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="http://w3af.org/">W3af</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/andresriancho/w3af">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://xsser.03c8.net/">XSSer</a>
+          </td>
+          <td>
+            <ul class="resources-list">
+              <li><a class="bin-resources" target="_blank" href="https://github.com/epsylon/xsser">Github</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/JohnWoodman/FES">FES</a>
+          </td>
+          <td>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://github.com/OJ/gobuster">Gobuster</a>
+          </td>
+          <td>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="web" href="#">Web</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://wigle.net/">Wigle</a>
+          </td>
+          <td>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="osint" href="#">Osint</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><a class="bin-name" target="_blank" href="https://osintframework.com/">OSINT Framework</a>
+          </td>
+          <td>
+          </td>
+          <td>
+            <ul class="type-list">
+              <li><a class="online" href="#">Online</a></li>
+              <li><a class="osint" href="#">Osint</a></li>
+            </ul>
+          </td>
+        </tr>
+      </ol>
+    </table>
+  </div>
+  <script src="https://raw.githubusercontent.com/Pizus/T00lz/master/js/liveSearch.js"></script>
+</body>
+</html>
