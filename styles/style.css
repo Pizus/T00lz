@@ -3,10 +3,9 @@
     max-width: 90%;
   }
   .type-list a {
-    font-size: 0.75em;
+
    }
   .resources-list a {
-    font-size: 1em;
    }
 }
 
@@ -19,7 +18,7 @@
 body, html{
     font-family: monospace, sans-serif;
     height: 100%;
-    margin: 40px auto;
+    margin: 2vw auto;
     background-color: #222831;
 }
 
@@ -31,8 +30,8 @@ p {
 
 #search {
     margin-top: 25px;
-    padding: 1em;
-    font-size: 1rem;
+    padding: 1vw;
+    font-size: 1vw;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #03AEF3;
@@ -69,8 +68,8 @@ a {
 
 .type-list li {
   display: inline-block;
-  padding: 0.25em 0.5em;
-  margin: 0.2em 0;
+  padding: 0.25vw 0.5vw;
+  margin: 0.2vw 0;
   border: 1px solid #00adb5;
   background-color: #393e46; !important
 }
@@ -81,13 +80,13 @@ a {
 
 .bin-name {
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 1vw;
     color: #eeeeee;
 }
 
 .bin-resources {
     font-family: monospace;
-    font-size: 1rem;
+    font-size: 1vw;
     color: #03AEF3;
 }
 
