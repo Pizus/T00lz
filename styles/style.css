@@ -22,6 +22,9 @@
  .resources-list a, .bin-name{
     font-size: 100%;
    }
+   .crypto, .online, .bruteforcers, .exploits, .forensics, .networking, .reversing, .steganography, .web, .osint, .services {
+     font-size: 0.5vw
+   } 
 }
 
 body, html{
