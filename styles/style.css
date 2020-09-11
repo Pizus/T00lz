@@ -7,12 +7,18 @@
    }
   .resources-list a {
    }
+  .resources-list a, .bin-name{
+    font-size: 100%;
+   }
 }
 
  @media only screen and (min-width: 1024px) {
   body, html{
     max-width: 70%;
   }
+  .resources-list a, .bin-name{
+    font-size: 100%;
+   }
 }
 
 body, html{
@@ -80,7 +86,6 @@ a {
 
 .bin-name {
     font-family: monospace;
-    font-size: 1vw;
     color: #eeeeee;
 }
 
