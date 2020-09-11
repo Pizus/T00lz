@@ -4,6 +4,12 @@
   }
 }
 
+ @media only screen and (min-width: 1024px) {
+  body, html{
+    width: 70%;
+  }
+}
+
 body, html{
     font-family: monospace, sans-serif;
     width: 70%;
