@@ -1,0 +1,119 @@
+body, html{
+    font-family: monospace, sans-serif;
+    width: 70%;
+    height: 100%;
+    margin: 40px auto;
+    background-color: #222831;
+}
+
+
+p {
+  color: #393e46;
+  margin: 0;
+}
+
+#search {
+    margin-top: 25px;
+    padding: 1em;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #03AEF3;
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+.container{
+}
+
+#bin-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#bin-table th{
+    text-align: left;
+    color: #393e46;
+    pointer-events: none;
+}
+
+#bin-table tr:hover{
+    background: rgb(57, 62, 70, .25);
+}
+
+ul {
+    display: inline;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.type-list li {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  margin: 0.2em 0;
+  border: 1px solid #00adb5;
+  background-color: #393e46; !important
+}
+
+.resources-list li {
+  display: inline-block;
+}
+
+.bin-name {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #eeeeee;
+}
+
+.bin-resources {
+    font-family: monospace;
+    font-size: 1rem;
+    color: #03AEF3;
+}
+
+.online {
+  color: #eeeeee;
+}
+
+.crypto {
+   	color: #eeeeee;
+}
+
+.brutforcers {
+  color: #eeeeee;
+}
+
+.exploits {
+  color: #eeeeee
+}
+
+.forensics {
+  color: #eeeeee;
+}
+
+.networking {
+  color: #eeeeee;
+}
+
+.reversing {
+  color: #eeeeee;
+}
+
+.services {
+  color: #eeeeee;
+}
+
+.steganography {
+  color: #eeeeee;
+}
+
+.web {
+  color: #eeeeee;
+}
+
+.osint {
+  color: #eeeeee;
+}
