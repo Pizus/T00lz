@@ -2,16 +2,17 @@
   body, html{
     max-width: 90%;
   }
-  .type-list a {
-
+  .bin-name{
+    font-size: 100%;
    }
+  
   .resources-list a {
    }
   .resources-list a, .bin-name{
     font-size: 100%;
    }
   .type-list{
-   font-size 2vw;
+   font-size 1.75vw;
   }
 }
 
