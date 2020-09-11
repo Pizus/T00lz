@@ -81,7 +81,7 @@ a {
 .type-list li {
    display: inline-block;
   
-   padding: 0.25vw 0.5vw;
+   padding: 0.1vw 0.1vw;
    margin: 0.2vw 0;
    border: 1px solid #00adb5;
    background-color: #393e46; !important
