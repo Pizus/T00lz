@@ -22,9 +22,6 @@
  .resources-list a, .bin-name{
     font-size: 100%;
    }
- .type-list{
-   
-  }
 }
 
 body, html{
@@ -76,10 +73,7 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-.type-list {
-  font-size 0.5vw;
+    font-size 0.5vw;
 }
 
 .type-list li {
