@@ -19,10 +19,10 @@
   body, html{
     max-width: 70%;
   }
-  .resources-list a, .bin-name{
+ .resources-list a, .bin-name{
     font-size: 100%;
    }
-   .type-list{
+ .type-list{
    font-size 0.5vw;
   }
 }
