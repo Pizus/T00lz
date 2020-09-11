@@ -2,6 +2,12 @@
   body, html{
     max-width: 90%;
   }
+  .type-list a {
+    font-size: 0.75em;
+   }
+  .resources-list a {
+    font-size: 1em;
+   }
 }
 
  @media only screen and (min-width: 1024px) {
